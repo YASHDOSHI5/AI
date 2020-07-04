@@ -1,0 +1,21 @@
+a
+b
+
+#list
+a = [1, 2, 3, 4, 5, 'human']
+b = [[1, 2, 3, 4, 5, 'human'], [2, 3, 4, 5, 'human'], [3, 4, 5, 'human']]
+
+
+#tuple
+a = (1, 2, 3, 4, 5, 'human')
+
+#set
+a= {1, 2, 3, 4, 5, 'human'}
+
+#dictionary
+a = {'list': [1, 2, 3, 4, 5, 'human'],
+     'tuple': (1, 2, 3, 4, 5, 'human'),
+     'set': {1, 2, 3, 4, 5, 'human'}}
+     
+ type(a)
+ type(b)
